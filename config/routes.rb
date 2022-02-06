@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  devise_for :users
   root 'tasks#index'
+  devise_for :users
   resources :tasks
   # get 'tasks/index'
   # get 'tasks/show'
